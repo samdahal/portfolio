@@ -115,8 +115,8 @@ export default function Resume() {
       <Section title="Professional Experience">
         <div className="space-y-7">
           {experience.map((job) => (
-            <div key={job.company} className="break-inside-avoid">
-              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-ink/15 pb-1">
+            <div key={job.company}>
+              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-ink/15 pb-1 break-after-avoid">
                 <h3 className="font-display text-xl text-ink">{job.company}</h3>
                 <div className="text-sm text-ink/60">
                   {job.location} · {job.tenure}

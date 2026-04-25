@@ -119,7 +119,7 @@ html {
 
   /* Tighten spacing for print */
   .resume h1 {
-    font-size: 28pt;
+    font-size: 24pt;
   }
 
   .resume h2 {
@@ -133,14 +133,60 @@ html {
   .resume p,
   .resume li,
   .resume div {
-    font-size: 10pt;
-    line-height: 1.45;
+    font-size: 9.5pt;
+    line-height: 1.35;
   }
 
-  /* Avoid awkward page breaks inside roles/jobs */
+  /* Compress vertical rhythm for print */
+  .resume section {
+    margin-top: 14pt !important;
+  }
+  .resume header {
+    padding-bottom: 8pt !important;
+  }
+  .resume .space-y-7 > * + * {
+    margin-top: 12pt !important;
+  }
+  .resume .space-y-5 > * + * {
+    margin-top: 8pt !important;
+  }
+  .resume .space-y-3 > * + * {
+    margin-top: 4pt !important;
+  }
+  .resume .space-y-2 > * + * {
+    margin-top: 3pt !important;
+  }
+  .resume .space-y-1\.5 > * + * {
+    margin-top: 2pt !important;
+  }
+  .resume .mt-8 {
+    margin-top: 14pt !important;
+  }
+  .resume .mt-5 {
+    margin-top: 8pt !important;
+  }
+  .resume .mt-3 {
+    margin-top: 6pt !important;
+  }
+  .resume .mb-3 {
+    margin-bottom: 6pt !important;
+  }
+
+  /* Keep individual roles together; do NOT wrap the whole company block */
   .break-inside-avoid {
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+
+  .break-after-avoid {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 
   /* Ensure ember accent prints */
