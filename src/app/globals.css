@@ -93,3 +93,64 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Print styles — produce a clean PDF via the browser's "Save as PDF" */
+@page {
+  size: Letter;
+  margin: 0.5in;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #0e0e10 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .resume {
+    max-width: none !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+  }
+
+  /* Tighten spacing for print */
+  .resume h1 {
+    font-size: 28pt;
+  }
+
+  .resume h2 {
+    font-size: 11pt;
+  }
+
+  .resume h3 {
+    font-size: 11pt;
+  }
+
+  .resume p,
+  .resume li,
+  .resume div {
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+
+  /* Avoid awkward page breaks inside roles/jobs */
+  .break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Ensure ember accent prints */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -17,9 +15,9 @@ const display = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Sam — Director of Engineering",
+  title: "Sam Dahal — Resume",
   description:
-    "Sam's portfolio — Director of Engineering building bold products, leading teams, and shipping delightful software.",
+    "Resume of Sam Dahal — Executive Director of Software Engineering. Enterprise data & platform strategy, Databricks, microservices, and global engineering leadership.",
 };
 
 export default function RootLayout({
@@ -29,10 +27,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${sans.variable} ${display.variable}`}>
-      <body className="font-sans antialiased grain noise-bg">
-        <Navbar />
-        <main className="relative z-10">{children}</main>
-        <Footer />
+      <body className="font-sans antialiased">
+        <main>{children}</main>
       </body>
     </html>
   );
