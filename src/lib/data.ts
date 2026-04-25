@@ -1,190 +1,193 @@
 export const profile = {
   name: "Sam Dahal",
   shortName: "Sam",
-  title: "Director of Engineering",
+  title: "Executive Director — Director of Software Engineering",
   tagline:
-    "Senior Leader of Engineering · Big Data & GenAI Strategy · Global Team Leadership",
+    "Enterprise Data & Platform Strategy · Databricks · Microservices · Global Engineering Leadership",
   location: "Columbus, Ohio",
   email: "samdahal2@gmail.com",
   phone: "513-484-0611",
   linkedin: "https://www.linkedin.com/in/sam-dahal-a76596a4",
+  linkedinLabel: "linkedin.com/in/sam-dahal-a76596a4",
   github: "https://github.com/samdahal",
+  githubLabel: "github.com/samdahal",
   summary:
-    "Senior Leader of Engineering with 10+ years of experience leading large engineering organizations and scaling global teams of up to 26+ FTEs. Proven record of modernizing enterprise platforms, driving big data and GenAI strategy initiatives, and delivering mission-critical systems under regulatory deadlines.",
-  philosophy:
-    "Align engineering strategy with business goals, mentor the next generation of leaders, and build cross-functional organizations that deliver measurable outcomes.",
-  stats: [
-    { value: "10+", label: "Years leading engineering" },
-    { value: "26+", label: "Global FTEs led" },
-    { value: "$2M+/day", label: "Regulatory fines avoided" },
-    { value: "50%+", label: "Faster onboarding via AI" },
-  ],
-  highlights: [
-    "Directed 26+ FTEs delivering JPMorgan's Enterprise Data & AI Platform on Databricks.",
-    "Led full rewrite of the ERMA platform under federal deadline, avoiding $2M+/day in fines.",
-    "Scaled engineering org from 8 to 20+ globally distributed developers across US & UK.",
-    "Launched AI-powered onboarding chatbot and portal, cutting onboarding time by 50%+.",
-    "Pioneered GenAI and agentic coding adoption, accelerating developer productivity firm-wide.",
-  ],
-  languages: ["English (fluent)", "Nepali (native)"],
-  education: {
-    school: "Southern New Hampshire University",
-    degree: "B.S., Computer Science",
-    year: "2021",
-    note: "Completed while working full-time",
-  },
+    "Senior Engineering Leader with 10+ years of experience leading large-scale organizations and managing managers across global teams (30–50+ FTEs). Proven track record of driving enterprise platform modernization, executing firm-wide data and GenAI strategies, and delivering mission-critical systems under strict regulatory deadlines — including leading a high-impact rewrite that avoided multiple millions in daily penalties.\n\nRecognized for aligning engineering strategy with business outcomes, building high-performing leadership teams, and scaling platforms that support critical operations at scale. Combines deep technical expertise with strong business acumen to drive measurable organizational impact.",
 };
 
-export const skillGroups = [
+export const competencies = [
   {
     title: "Leadership & Strategy",
     items: [
-      "Engineering Management",
-      "Organizational Scaling",
+      "Engineering Leadership & Organizational Strategy",
+      "Managing Managers & Org Scaling (30–50+ FTEs)",
+      "Executive Stakeholder Alignment (CIO, Product, Business)",
       "Global Team Leadership",
-      "Agile Delivery",
-      "Cross-Functional Collaboration",
-      "Mentorship",
+      "Talent Development & Leadership Coaching",
+      "Operational Excellence & Execution Strategy",
     ],
   },
   {
     title: "Technical Strategy",
     items: [
-      "Enterprise Architecture",
-      "Cloud Migration",
-      "Microservices",
-      "Databricks",
-      "CI/CD Pipelines",
-      "Resiliency Engineering",
+      "Software Engineering Leadership & Platform Strategy",
+      "Enterprise Architecture & Modernization",
+      "Cloud Transformation (AWS)",
+      "Distributed Systems & Microservices",
+      "Data, Analytics & GenAI Platforms (Databricks Lakehouse)",
+      "CI/CD, Developer Productivity & DevEx",
+      "Resiliency, Scalability & High-Availability Systems",
     ],
   },
   {
-    title: "GenAI & Agentic Coding",
+    title: "GenAI & Agentic Systems",
     items: [
-      "LLM Integration",
-      "Agentic Workflow Design",
-      "AI Developer Tooling",
-      "Prompt Engineering",
-      "Chatbot & Copilot Dev",
-      "Claude / OpenAI APIs",
+      "GenAI Strategy & Adoption",
+      "LLM Integration & Enterprise Use Cases",
+      "Agentic Workflow & Automation Design",
+      "AI-Powered Developer Productivity & Tooling",
+      "Copilot & Conversational AI Platforms",
+      "OpenAI & Anthropic APIs",
     ],
   },
   {
-    title: "Hands-On Tech",
-    items: ["Java", "Spring Boot", "React", "Angular", "SQL", "AWS"],
+    title: "Hands-On Technologies",
+    items: [
+      "Java (Spring Boot)",
+      "Frontend (React, Angular)",
+      "SQL & Data Modeling",
+      "AWS Cloud & Distributed Systems",
+      "API & Microservices Architecture",
+      "CI/CD & DevOps",
+    ],
   },
 ];
 
-export const projects = [
-  {
-    title: "Enterprise Data & AI Platform",
-    subtitle: "Databricks Lakehouse",
-    blurb:
-      "Directed multiple platform teams (26+ FTEs) building JPMorgan's firm-wide Enterprise Data & AI Platform on Databricks — unifying data access, analytics, and ML/GenAI workloads across the line of business on a single governed lakehouse.",
-    tags: ["Databricks", "Lakehouse", "Big Data", "AI/ML", "Platform"],
-    metric: "Adoption accelerated across LOB",
-    accent: "from-rose-400 via-orange-400 to-amber-400",
-  },
-  {
-    title: "ERMA Platform Rewrite",
-    subtitle: "Firm-wide Resiliency Platform",
-    blurb:
-      "Replaced the legacy ERMA platform — the firm's system of record for business and technology resiliency planning — with a modern Spring Boot architecture, hitting a critical federal compliance deadline and protecting the firm from significant regulatory exposure.",
-    tags: ["Resiliency", "Spring Boot", "Microservices", "Compliance", "CI/CD"],
-    metric: "$2M+/day in fines avoided",
-    accent: "from-violet-500 via-fuchsia-500 to-pink-500",
-  },
-  {
-    title: "SRS — Workplace Reservation",
-    blurb:
-      "Modernized the Space Reservation System with LOB entitlement, same-day sync, and automated seat suggestions for tens of thousands of employees across multiple regions.",
-    tags: ["React", "Angular", "Spring Boot", "Real-time"],
-    metric: "Tens of thousands of users",
-    accent: "from-emerald-400 via-teal-400 to-cyan-500",
-  },
-  {
-    title: "GenAI Onboarding Chatbot",
-    blurb:
-      "Launched an AI-powered onboarding chatbot and self-service portal, and integrated agentic coding assistants into developer workflows to reduce repetitive work and lift code quality.",
-    tags: ["GenAI", "Agentic", "LLM", "Automation"],
-    metric: "50%+ faster team onboarding",
-    accent: "from-indigo-500 via-blue-500 to-sky-400",
-  },
+export const achievements = [
+  "Directed 26+ FTEs across platform teams to deliver JPMorgan's Enterprise Data & AI Platform on Databricks, accelerating onboarding and data adoption across the LOB.",
+  "Led full rewrite of the firm-wide ERMA resiliency platform under federal deadline, avoiding $2M+/day in regulatory fines.",
+  "Scaled engineering org from 8 to 20+ globally distributed developers, improving delivery capacity and velocity consistency.",
+  "Introduced AI-powered onboarding chatbot and portal, cutting team onboarding time by 50%+.",
+  "Pioneered GenAI and agentic coding adoption across engineering teams, accelerating developer productivity and enabling AI-first workflows.",
 ];
 
 export const experience = [
   {
     company: "JPMorgan Chase & Co.",
-    role: "Executive Director — Director of Software Engineering",
-    period: "2025 — Present",
     location: "Columbus, OH",
-    tenureLabel: "JPMorgan Chase · 2021 — Present",
-    bullets: [
-      "Lead multi-team engineering organization (26+ FTEs) delivering the firm's Enterprise Data & AI Platform on Databricks across the line of business.",
-      "Launched an AI-powered chatbot and onboarding portal, reducing onboarding cycles by 50%+.",
-      "Pioneered GenAI tooling and agentic coding assistants in developer workflows, accelerating delivery and improving code quality.",
-      "Championed the Kickstarter Coding Guide, standardizing best practices firm-wide.",
-      "Mentor engineering leads to build leadership bench strength and sustainable delivery.",
-    ],
-  },
-  {
-    company: "JPMorgan Chase & Co.",
-    role: "Vice President — Senior Manager of Engineering",
-    period: "2023 — 2025",
-    location: "Columbus, OH",
-    bullets: [
-      "Directed an engineering org of 20+ developers across US and UK delivering enterprise resiliency (ERMA) and workplace reservation (SRS) platforms.",
-      "Replaced the legacy ERMA system with a modern Spring Boot platform, meeting a critical federal deadline and avoiding $2M+/day in potential fines.",
-      "Modernized the SRS platform with LOB entitlement, same-day sync, and automated seat suggestions for tens of thousands of employees.",
-      "Established cross-team architecture council and weekly design reviews, reducing rework by 30%.",
-      "Scaled the global engineering team by leading hiring and onboarding across US and UK.",
-    ],
-  },
-  {
-    company: "JPMorgan Chase & Co.",
-    role: "Vice President — Lead Software Engineer",
-    period: "2021 — 2023",
-    location: "Columbus, OH",
-    bullets: [
-      "Lead engineer driving the architecture and delivery of the ERMA modernization onto Spring Boot microservices ahead of a federal compliance deadline.",
-      "Set engineering standards, code review practices, and CI/CD patterns adopted across multiple platform teams.",
-      "Partnered with risk and compliance stakeholders to align platform capabilities with evolving regulatory mandates.",
-      "Mentored senior and mid-level engineers, growing the team's technical depth and delivery consistency.",
+    tenure: "2021 — Present",
+    roles: [
+      {
+        title: "Executive Director — Director of Software Engineering",
+        period: "Jan 2026 — Present",
+        focus: "Enterprise Workplace Technology",
+        bullets: [
+          "Lead multi-team engineering organization delivering enterprise workplace technology platforms at scale.",
+          "Accountable for platform strategy, operational resilience, and engineering standards across 50+ technologists.",
+          "Scaled systems supporting millions of daily transactions with zero-downtime deployments.",
+          "Delivered automation initiatives reducing onboarding effort by 50% and manual operations by 40%.",
+          "Partner with senior business stakeholders to translate enterprise strategy into technology execution.",
+        ],
+      },
+      {
+        title: "Vice President — Senior Manager",
+        period: "Jun 2025 — Jan 2026",
+        focus: "Enterprise Data & AI Platform (Databricks)",
+        bullets: [
+          "Directed multiple platform teams (25+ FTEs) implementing the firm's Enterprise Data & AI Platform on Databricks across the line of business.",
+          "Led architectural design and rollout of scalable lakehouse enabling unified data access, governance, and analytics modernization.",
+          "Launched AI-powered onboarding chatbot and automation portal, reducing onboarding cycles by 50%+.",
+          "Established engineering best practices and the Kickstarter Coding Guide, reducing time-to-productivity for new teams.",
+          "Integrated GenAI tooling and agentic coding assistants into developer workflows, improving code quality and reducing repetitive tasks.",
+          "Partnered with senior business and product stakeholders to align platform vision with enterprise data strategy.",
+        ],
+      },
+      {
+        title: "Vice President — Senior Manager",
+        period: "Nov 2023 — Jun 2025",
+        focus: "Workplace Reservation Platform (SRS)",
+        bullets: [
+          "Directed engineering organization delivering the enterprise workplace reservation platform used by tens of thousands of employees across multiple regions.",
+          "Led modernization of the Space Reservation System into a scalable Spring Boot microservices architecture with React/Angular front-end.",
+          "Delivered real-time seat availability and intelligent booking capabilities supporting enterprise return-to-office strategy.",
+          "Implemented LOB entitlement, same-day reservation sync, and book-on-behalf functionality.",
+          "Established architecture governance and cross-team design reviews, reducing rework by 30%.",
+          "Built and developed a high-performing global engineering team across US and UK.",
+        ],
+      },
+      {
+        title: "Vice President — Senior Manager",
+        period: "Jun 2021 — Nov 2023",
+        focus: "Firm-wide Resiliency Platform (ERMA)",
+        bullets: [
+          "Led full-scale rewrite of the legacy ERMA resiliency platform — the firm's system of record for business and technology resiliency planning — into a modern Spring Boot microservices architecture, meeting a critical federal compliance deadline.",
+          "Directed global engineering organization across US and UK, ensuring delivery predictability and architectural integrity.",
+          "Established cross-team architecture council and governance model, reducing rework by 30%.",
+          "Implemented CI/CD automation and zero-downtime deployment processes.",
+          "Partnered with risk, compliance, and business stakeholders to align platform capabilities with evolving regulatory mandates.",
+          "Strengthened succession planning by mentoring senior engineers and engineering managers.",
+        ],
+      },
     ],
   },
   {
     company: "Cincinnati Financial Corporation",
-    role: "Developer III",
-    period: "2018 — 2021",
     location: "Cincinnati, OH",
-    bullets: [
-      "Enhanced the eDelivery (paperless billing) application using Java, Spring Boot, Angular, and Bootstrap.",
-      "Migrated legacy JSP/Spring app to Angular 6 + Spring Boot, improving maintainability and performance.",
-      "Implemented CI/CD pipelines with Jenkins, reducing deployment errors and cycle time.",
-      "Mentored developers and led code reviews through servant leadership.",
+    tenure: "2018 — 2021",
+    roles: [
+      {
+        title: "Developer III",
+        period: "Jul 2018 — Jun 2021",
+        bullets: [
+          "Enhanced eDelivery (paperless billing) application using Java, Spring Boot, Angular, and Bootstrap.",
+          "Migrated legacy JSP/Spring app to Angular 6 + Spring Boot, improving maintainability and performance.",
+          "Designed and implemented an email-based document upload system, saving significant time for agents and underwriters.",
+          "Implemented CI/CD pipelines with Jenkins, reducing deployment errors and cycle time.",
+          "Mentored developers and interns, conducted code reviews, and supported team growth through servant leadership.",
+        ],
+      },
     ],
   },
   {
     company: "Great American Insurance Group",
-    role: "Application Analyst & Developer",
-    period: "2015 — 2018",
     location: "Cincinnati, OH",
-    bullets: [
-      "Rewrote the legacy policy administration system with AngularJS, Spring, and Groovy.",
-      "Implemented a web service enabling policy issuance in Mexico, supporting international expansion.",
-      "Refactored pub/sub components to accelerate development and improve downstream integrations.",
-      "Mentored interns and fostered team-wide adoption of SOLID principles.",
+    tenure: "2015 — 2018",
+    roles: [
+      {
+        title: "Application Analyst & Developer",
+        period: "Dec 2015 — Jul 2018",
+        bullets: [
+          "Rewrote legacy policy administration system with AngularJS, Spring, and Groovy, improving usability across multiple business units.",
+          "Implemented a web service for policy issuance in Mexico, enabling international expansion.",
+          "Refactored core pub/sub components to accelerate development and improve downstream integrations.",
+          "Mentored interns and developers, fostering team-wide adoption of SOLID principles.",
+        ],
+      },
     ],
   },
   {
     company: "Hyatt Hotels Corporation",
-    role: "Junior Software Developer (Internship)",
-    period: "Jan — Aug 2015",
     location: "Chicago, IL",
-    bullets: [
-      "Enhanced Hyatt's global sales system used by 500+ hotels with localization and billing automation.",
-      "Developed REST APIs for integration with Oracle POS, streamlining hotel operations.",
-      "Delivered HTML/CSS/JS enhancements that improved UX and branding consistency.",
+    tenure: "2015",
+    roles: [
+      {
+        title: "Junior Software Developer (Internship)",
+        period: "Jan — Dec 2015",
+        bullets: [
+          "Enhanced Hyatt's global event management system used by 500+ hotels, adding localization and billing automation.",
+          "Developed REST APIs for integration with Oracle POS, streamlining hotel operations.",
+          "Delivered HTML/CSS/JavaScript enhancements that improved UX and branding consistency.",
+        ],
+      },
     ],
   },
 ];
+
+export const education = {
+  school: "Southern New Hampshire University",
+  degree: "Bachelor of Science, Computer Science",
+  year: "2021",
+  note: "Completed while working full-time",
+};
+
+export const languages = ["English (fluent)", "Nepali (native)"];
