@@ -1,0 +1,201 @@
+   
+Contact
+samdahal2@gmail.com
+www.linkedin.com/in/sam-dahal-
+a76596a4 (LinkedIn)
+Top Skills
+Amazon Aurora
+AWS Lambda
+Amazon Web Services (AWS)
+Languages
+English (Native or Bilingual)
+Sam Dahal
+Executive Director | Enterprise Data & Platform Strategy | Databricks
+| Microservices | Global Engineering Leadership
+Columbus, Ohio, United States
+Summary
+I am an Executive Director and senior engineering leader with 10+
+years of experience building and scaling enterprise technology
+organizations within highly regulated environments.I lead global
+engineering teams (50+ FTEs) delivering mission-critical data
+and application platforms at scale. My focus is simple: align
+engineering execution with business strategy, modernize legacy
+systems, and build high-performing organizations that deliver
+measurable outcomes.Over the course of my career, I have:•
+Directed enterprise Databricks platform initiatives supporting a
+firm-wide “One Data Strategy,” accelerating onboarding and data
+adoption across the Line of Business• Led the full rewrite of a
+regulatory platform under federal deadline, avoiding $2M+ per day
+in potential fines• Modernized enterprise workplace reservation
+systems serving tens of thousands of employees, enabling real-
+time booking and operational automation• Reduced onboarding
+cycles by 50%+ through AI-powered automation and platform
+self-service tools• Scaled global engineering organizations while
+strengthening architecture governance and delivery consistencyMy
+leadership philosophy centers on ownership, accountability, and
+long-term platform resiliency. I build organizations that absorb
+pressure, solve complex problems, and execute with clarity under
+constraint.Technically, my background spans enterprise architecture,
+cloud modernization, microservices (Spring Boot), modern front-
+end platforms (React/Angular), and big data systems (Databricks).
+Strategically, I focus on organizational design, leadership
+development, and translating executive vision into scalable
+technology execution.I am always interested in conversations
+around enterprise platform strategy, engineering leadership, data
+modernization, and building resilient technology organizations.
+Experience
+  Page 1 of 5
+   
+JPMorganChase
+4 years 11 months
+Executive Director - Director of Software Engineering
+January 2026 - Present (4 months)
+Columbus, Ohio Metropolitan Area
+• Lead multi-team engineering organization delivering enterprise workplace
+technology platforms at scale.
+• Accountable for platform strategy, operational resilience, and engineering
+standards.
+• Scaled systems supporting millions of daily transactions with zero-downtime
+deployments.
+• Delivered automation initiatives reducing onboarding effort by 50% and
+manual operations by 40%.
+• Drive workforce strategy, talent development, and organizational
+performance across 50+ technologists.
+• Partner with senior business stakeholders to translate enterprise strategy into
+technology execution.
+Vice President - Senior Manager
+June 2025 - January 2026 (8 months)
+Columbus, Ohio Metropolitan Area
+Directed multiple platform teams (25+ FTEs) to implement enterprise-wide
+Databricks-based “One Data Strategy” across the Line of Business.
+• Led architectural design and rollout of scalable big data platform enabling
+unified data access, governance, and analytics modernization.
+• Accelerated data onboarding and adoption by standardizing ingestion
+patterns, CI/CD pipelines, and platform governance frameworks.
+• Launched AI-powered onboarding chatbot and automation portal, reducing
+onboarding cycles by 50%+ and improving user self-sufficiency.
+• Partnered with senior business and product stakeholders to define long-term
+platform vision aligned with enterprise data strategy.
+• Established engineering best practices and coding standards (“Kickstarter
+Coding Guide”), reducing time-to-productivity for new teams and improving
+delivery consistency.
+• Scaled global engineering capacity to support expanding analytics workloads
+and cross-functional data initiatives.
+• Ensured platform resiliency, compliance alignment, and operational stability
+for mission-critical data systems.
+Vice President - Senior Manager
+November 2023 - June 2025 (1 year 8 months)
+  Page 2 of 5
+   
+Columbus, Ohio Metropolitan Area
+• Directed engineering organization delivering enterprise workplace reservation
+platform used by tens of thousands of employees across multiple regions.
+• Led modernization of Space Reservation System into a scalable Spring Boot
+microservices architecture with React/Angular front-end, improving reliability
+and long-term maintainability.
+• Delivered real-time seat availability and intelligent booking capabilities
+supporting enterprise return-to-office strategy.
+• Implemented Line of Business (LOB) entitlement controls, same-day
+reservation synchronization, and book-on-behalf functionality to align
+workplace technology with evolving business needs.
+• Scaled platform to handle millions of daily transactions while maintaining high
+availability and zero-downtime deployments.
+• Established architecture governance and cross-team design reviews,
+reducing rework by 30% and improving engineering consistency.
+• Automated CI/CD pipelines and deployment processes, strengthening
+release stability and accelerating feature delivery.
+• Partnered with senior business and operations stakeholders to define product
+roadmap and prioritize investment aligned with enterprise workforce strategy.
+• Proactively identified and mitigated platform risks, ensuring adherence to
+enterprise security, compliance, and resiliency standards.
+• Built and developed a high-performing global engineering team, improving
+velocity consistency and succession readiness.
+Vice President - Senior Manager
+June 2021 - November 2023 (2 years 6 months)
+Columbus, Ohio Metropolitan Area
+• Led full-scale rewrite of legacy resiliency system into modern Spring Boot
+microservices architecture, meeting critical federal compliance deadline.
+• Directed global engineering organization (US & UK) across multiple teams,
+ensuring delivery predictability and architectural integrity.
+• Established cross-team architecture council and governance model, reducing
+rework by 30% and strengthening long-term platform scalability.
+• Implemented CI/CD automation and zero-downtime deployment processes to
+improve release stability and operational resilience.
+• Partnered with risk, compliance, and business stakeholders to align platform
+capabilities with evolving regulatory mandates.
+• Proactively identified system vulnerabilities and technical debt, driving
+remediation ahead of audit and regulatory review cycles.
+  Page 3 of 5
+   
+• Strengthened succession planning and leadership bench by mentoring senior
+engineers and engineering managers.
+The Cincinnati Insurance Companies
+Developer III
+July 2018 - June 2021 (3 years)
+Cincinnati Area, KY
+Developer within CIC shared service division 
+- design and enhancements of CIC electronic delivery system(application
+responsible for sending policy and billing statements to the customers)
+- pair programming/coaching junior developers and interns
+- designed and implemented document processing/uploading system via email
+for multiple business units saving significant amount of time for agents and
+underwriters
+- Implemented various SOAP/REST web services to communicate with
+internal/external applications
+- participated with whole SDLC life-cycle (Design/Coding/Deployment) of the
+application
+- Implemented continuous integration using Jenkins
+- Technologies used : Bootstrap, CSS, Jquery, AJAX, AngularJS, Java, Spring,
+Maven, TFS, QuickBuild, Maven, Linux,  
+- IDE: Eclipse, Intellij IDEA
+Great American Insurance
+Application Analyst and Developer
+December 2015 - July 2018 (2 years 8 months)
+Cincinnati Area, KY
+Software Developer for Great American New System policy administration
+software. Currently working on rewriting the legacy system using modern
+technologies like AngularJS, HTML5, CSS3, SASS, Bootstrap, NodeJS, Java,
+Groovy, and a slew of few other technologies using agile methodology.
+- Fixed various data integrity issue by tightening the security of the policy
+admin system using AOP(Aspect Oriented programming)
+- Go to person for pub/sub adapter, a real-time policy admin to downstream
+data adapter
+- Provided several enhancements using HTML5/CSS3/AngularJS/JQuery on
+the frontend and Groovy/Java on the back-end
+- Quickly resolved high priority, critical defects affecting multiple business units
+  Page 4 of 5
+   
+- Implemented pub/sub component responsible for sending real time data to
+the downstream systems
+- Built JAX-WS client to get city, state/provinces for multiple countries
+- Refactored core component of pub/sub system which accelerated
+development time significantly
+- Core enhancement of the policy admin system across multiple business units
+- Written unit tests and integration test using JUnit and Jasmine testing
+frameworks
+- Delivered feature enhancements on time leading to high customer
+satisfaction
+- Provided various other business values which simplify the work of business
+users
+- Used SOLID and various other design principles to keep code clean and
+maintainable
+- Provided highest level of technical supports to user on the escalated
+production incident
+- Cross training/supporting developers in areas where I have an expertise 
+Technologies: HTML5, CSS3, AngularJS, OracleDB, Java, Spring, Groovy,
+Git, Maven, Jenkins
+Hyatt Hotels Corporation via SmartSource
+Consultant - Junior Developer
+January 2015 - December 2015 (1 year)
+Greater Chicago Area
+I was a developer for Hyatt's web based event management app which was
+used by all(500+) hotels. Primarily responsible for small feature design, and
+enhancements, and a bunch of development and non-development adhoc
+requests...Analyzed and resolved common ticketing issue and implement code
+solution which saved the operation cost
+Technologies: HTML, CSS, JavaScript, BackboneJS, Java, SpringMVC, J2EE,
+Maven, Jenkins, Hibernate, Informix DB, SVN
+Education
+Southern New Hampshire University
+Bachelor's degree, Computer Science · (May 2021)
+  Page 5 of 5

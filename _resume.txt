@@ -1,0 +1,92 @@
+Sam Dahal
+Columbus, OH  ·  samdahal2@gmail.com  ·  513-484-0611  ·  github.com/samdahal  ·  linkedin.com/in/sam-dahal-a76596a4
+SUMMARY
+Senior Leader of Engineering with 10+ years of experience leading large engineering organizations and scaling global teams of
+up to 26+ FTEs. Proven record of modernizing enterprise platforms, driving big data and GenAI strategy initiatives, and delivering
+mission-critical systems under regulatory deadlines — including a rewrite that avoided $2M+/day in fines. Adept at aligning
+engineering strategy with business goals, mentoring engineering managers and senior developers, and building cross-functional
+organizations that deliver measurable outcomes.
+CORE COMPETENCIES
+Leadership & Strategy
+Engineering Management · Organizational Scaling · Agile Delivery · Cross-Functional Collaboration ·
+Global Team Leadership · Mentorship
+Technical Strategy
+Enterprise Architecture · Cloud Migration · Microservices · Data Platforms (Databricks) · CI/CD Pipelines ·
+Resiliency Engineering
+GenAI & Agentic Coding
+LLM Integration · Agentic Workflow Design · AI-Powered Developer Tooling · Prompt Engineering ·
+Chatbot & Copilot Development · Claude / OpenAI APIs
+Hands-On Technologies
+Java · Spring Boot · React · Angular · SQL · AWS
+KEY ACHIEVEMENTS
+– Directed 26+ FTEs across platform teams to deliver JPMorgan's Databricks-based 'One Data Strategy' platform, accelerating
+ onboarding and data adoption across the LOB.
+– Led full rewrite of ERMA platform under federal deadline, avoiding $2M+/day in regulatory fines.
+ 
+– Scaled engineering org from 8 to 20+ globally distributed developers, improving delivery capacity and velocity consistency.
+ 
+– Introduced AI-powered onboarding chatbot and portal, cutting team onboarding time by 50%+.
+ 
+– Pioneered GenAI and agentic coding adoption across engineering teams, accelerating developer productivity and enabling
+ AI-first workflows.
+PROFESSIONAL EXPERIENCE
+JPMorgan Chase & Co.
+Executive Director, Director of Software Engineering   2021 – Present   Columbus, OH
+Platform Leadership – Big Data (Databricks)
+– Directed multiple platform teams and managed 26+ FTEs to implement the firm's big data strategy on Databricks, enabling a
+ unified 'One Data Strategy' across the line of business.
+– Accelerated onboarding efficiency by launching an AI-powered chatbot and seamless onboarding portal, reducing onboarding
+ cycles by 50%+.
+– Championed creation of a Kickstarter Coding Guide, standardizing best practices and drastically reducing time-to-productivity
+ for new teams.
+– Integrated GenAI tooling and agentic coding assistants into developer workflows, improving code quality and reducing
+ repetitive development tasks across platform teams.
+– Partnered with product and business leaders to define platform vision, ensuring adoption aligned with LOB's long-term data
+ and AI strategy.
+– Mentored engineering leads across platform teams, building leadership bench strength and driving sustainable delivery.
+ 
+Enterprise Applications Leadership (ERMA & SRS)
+– Directed engineering org of 20+ developers across US and UK, delivering enterprise resiliency and workplace reservation
+ platforms used by tens of thousands of employees.
+– Replaced legacy ERMA system with modern Spring Boot platform, meeting a critical federal deadline and avoiding $2M+ per
+ day in potential regulatory fines.
+– Modernized space reservation platform (SRS), introducing LOB entitlement, same-day sync, and automated seat suggestions,
+ improving adoption and operational efficiency.
+– Scaled global engineering team by leading hiring and onboarding across US and UK, improving ramp-up speed and
+ organizational delivery capacity.
+– Established cross-team architecture council and weekly design reviews, ensuring long-term scalability and reducing rework by
+ 30%.
+– Mentored senior engineers and future leaders, increasing velocity consistency and succession readiness across multiple
+ teams.
+Cincinnati Financial Corporation
+Developer III   2018 – 2021   Cincinnati, OH
+– Enhanced eDelivery application (paperless billing) using Java, Spring Boot, Angular, and Bootstrap.
+ 
+– Migrated legacy JSP/Spring app to Angular 6 + Spring Boot, improving maintainability and performance.
+ 
+– Implemented CI/CD pipelines with Jenkins, reducing deployment errors and cycle time.
+ 
+– Mentored developers, conducted code reviews, and supported team growth through servant leadership.
+ 
+Great American Insurance Group
+Application Analyst & Developer   2015 – 2018   Cincinnati, OH
+– Rewrote legacy policy administration system with AngularJS, Spring, and Groovy, improving usability across multiple business
+ units.
+– Implemented web service for policy issuance in Mexico, enabling international expansion.
+ 
+– Refactored pub/sub components to accelerate development and improve downstream integrations.
+ 
+– Mentored interns and developers, fostering team-wide adoption of SOLID principles.
+ 
+Hyatt Hotels Corporation
+Junior Software Developer   Jan – Aug 2015 (Internship)   Chicago, IL
+– Enhanced Hyatt's global sales system used by 500+ hotels, adding localization and billing automation.
+ 
+– Developed REST APIs for integration with Oracle POS, streamlining hotel operations.
+ 
+– Delivered enhancements in HTML, CSS, and JavaScript, improving user experience and branding consistency.
+ 
+EDUCATION
+Bachelor of Science, Computer Science  —  Southern New Hampshire University  ·  2021  (completed while working full-time)
+LANGUAGES
+English (fluent)  ·  Nepali (native)

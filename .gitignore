@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+dist
+.env*
+.DS_Store
+*.log
+
+# python venv (lives inside this workspace)
+/Lib/
+/Scripts/
+/Include/
+/Share/
+pyvenv.cfg
+pip-selfcheck.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# typescript
+*.tsbuildinfo
