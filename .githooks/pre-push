@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "Running pre-push: npm run build..."
+npm run build || {
+  echo ""
+  echo "❌ Build failed. Push aborted."
+  echo "Fix errors above, then try again. To bypass (not recommended): git push --no-verify"
+  exit 1
+}
+echo "✅ Build passed. Pushing..."
