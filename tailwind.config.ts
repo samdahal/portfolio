@@ -5,9 +5,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#0e0e10",
-        cream: "#f4f1ea",
-        ember: "#e85a2c",
+        ink: "rgb(var(--ink-rgb) / <alpha-value>)",
+        cream: "rgb(var(--bg-rgb) / <alpha-value>)",
+        ember: "rgb(var(--accent-rgb) / <alpha-value>)",
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],

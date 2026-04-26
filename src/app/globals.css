@@ -3,11 +3,35 @@
 @tailwind utilities;
 
 :root {
-  /* 3-color theme: cream, ink, ember */
-  --bg: #f4f1ea;
-  --ink: #0e0e10;
-  --accent: #e85a2c;
-  --accent-soft: rgba(232, 90, 44, 0.12);
+  /* Default theme: ember (warm coral) */
+  --bg-rgb: 244 241 234;
+  --ink-rgb: 14 14 16;
+  --accent-rgb: 232 90 44;
+  --bg: rgb(var(--bg-rgb));
+  --ink: rgb(var(--ink-rgb));
+  --accent: rgb(var(--accent-rgb));
+  --accent-soft: rgb(var(--accent-rgb) / 0.12);
+}
+
+/* Theme: ember — warm coral on cream */
+[data-theme="ember"] {
+  --bg-rgb: 244 241 234;
+  --ink-rgb: 14 14 16;
+  --accent-rgb: 232 90 44;
+}
+
+/* Theme: azure — deep navy blue on ivory */
+[data-theme="azure"] {
+  --bg-rgb: 243 244 247;
+  --ink-rgb: 12 19 34;
+  --accent-rgb: 30 90 180;
+}
+
+/* Theme: forest — deep evergreen on warm white */
+[data-theme="forest"] {
+  --bg-rgb: 241 243 238;
+  --ink-rgb: 15 26 20;
+  --accent-rgb: 34 110 78;
 }
 
 html,

@@ -1,3 +1,20 @@
+/**
+ * Theme switcher — change this value to "ember" | "azure" | "forest".
+ *  - ember:  warm coral on cream (default)
+ *  - azure:  deep navy blue on ivory
+ *  - forest: deep evergreen on warm white
+ */
+export const theme: "ember" | "azure" | "forest" = "ember";
+
+/**
+ * Template switcher — change this value to pick a layout.
+ *  - classic: single-column editorial (default)
+ *  - compact: two-column with left sidebar (contact / skills / education)
+ *  - modern:  bold accent header band + timeline-style experience
+ *  - minimal: ultra-clean, centered, monospace section labels, lots of whitespace
+ */
+export const template: "classic" | "compact" | "modern" | "minimal" = "compact";
+
 export const profile = {
   name: "Sam Dahal",
   shortName: "Sam",
@@ -80,9 +97,9 @@ export const experience = [
       {
         title: "Executive Director — Director of Software Engineering",
         period: "Jan 2026 — Present",
-        focus: "Enterprise Workplace Technology",
+        focus: "Enterprise Data & AI Platform (Databricks)",
         bullets: [
-          "Lead multi-team engineering organization delivering enterprise workplace technology platforms at scale.",
+          "Lead multi-team engineering organization delivering enterprise data & AI platforms at scale.",
           "Accountable for platform strategy, operational resilience, and engineering standards across 50+ technologists.",
           "Scaled systems supporting millions of daily transactions with zero-downtime deployments.",
           "Delivered automation initiatives reducing onboarding effort by 50% and manual operations by 40%.",
@@ -180,6 +197,27 @@ export const experience = [
         ],
       },
     ],
+  },
+];
+
+export const projects: {
+  name: string;
+  tagline?: string;
+  description: string;
+  tech: string[];
+  link?: string;
+  repo?: string;
+  status?: string;
+}[] = [
+  {
+    name: "Sam's Portfolio",
+    tagline: "Personal resume site with PDF export",
+    description:
+      "Single-page Next.js resume with print-friendly styling and one-click PDF export.",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    repo: "https://github.com/samdahal/portfolio",
+    link: "https://your-vercel-url.vercel.app",
+    status: "2026",
   },
 ];
 

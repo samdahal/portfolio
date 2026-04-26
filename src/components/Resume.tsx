@@ -4,6 +4,7 @@ import {
   competencies,
   achievements,
   experience,
+  projects,
   education,
   languages,
 } from "@/lib/data";
@@ -160,6 +161,69 @@ export default function Resume() {
           ))}
         </div>
       </Section>
+
+      {/* Personal Projects */}
+      {projects.length > 0 && (
+        <Section title="Personal Projects">
+          <div className="grid gap-4 sm:grid-cols-2">
+            {projects.map((p) => (
+              <div
+                key={p.name}
+                className="break-inside-avoid rounded-lg border border-ink/10 bg-cream/40 p-4 print:bg-transparent print:p-3"
+              >
+                <div className="flex items-baseline justify-between gap-3">
+                  <h3 className="text-[15px] font-semibold text-ink">{p.name}</h3>
+                  {p.status && (
+                    <span className="shrink-0 text-xs text-ink/55">{p.status}</span>
+                  )}
+                </div>
+                {p.tagline && (
+                  <div className="mt-0.5 text-[12.5px] uppercase tracking-wider text-ember">
+                    {p.tagline}
+                  </div>
+                )}
+                <p className="mt-2 text-[13.5px] leading-relaxed text-ink/80">
+                  {p.description}
+                </p>
+                {(p.link || p.repo) && (
+                  <div className="mt-2 flex flex-wrap gap-3 text-[12.5px] font-medium">
+                    {p.link && (
+                      <a
+                        href={p.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-ember hover:underline"
+                      >
+                        Live ↗
+                      </a>
+                    )}
+                    {p.repo && (
+                      <a
+                        href={p.repo}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-ember hover:underline"
+                      >
+                        Repo ↗
+                      </a>
+                    )}
+                  </div>
+                )}
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {p.tech.map((t) => (
+                    <span
+                      key={t}
+                      className="rounded-full border border-ink/15 px-2 py-0.5 text-[11px] text-ink/70"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* Education + Languages */}
       <div className="mt-8 grid gap-8 sm:grid-cols-2">

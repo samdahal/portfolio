@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { theme } from "@/lib/data";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -26,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${sans.variable} ${display.variable}`}>
+    <html lang="en" data-theme={theme} className={`${sans.variable} ${display.variable}`}>
       <body className="font-sans antialiased">
         <main>{children}</main>
       </body>
